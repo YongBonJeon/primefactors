@@ -40,4 +40,9 @@ class PrimeFactorsTest {
     void testPrimeFactorOf6() {
         Assertions.assertEquals(Arrays.asList(2,3), primeFactor.of(6));
     }
+
+    @Test
+    void testPrimeFactorOf9() {
+        Assertions.assertEquals(Arrays.asList(3,3), primeFactor.of(9));
+    }
 }
