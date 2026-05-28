@@ -3,7 +3,12 @@ import java.util.List;
 
 public class PrimeFactor {
 
-    public List<Object> of(int i) {
-        return new ArrayList<>();
+    public List<Integer> of(int number) {
+        ArrayList<Integer> factors = new ArrayList<Integer>();
+
+        if(number == 2)
+            factors.add(number);
+
+        return factors;
     }
 }
